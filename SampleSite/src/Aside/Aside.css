@@ -1,0 +1,11 @@
+.Aside {
+    display: block;
+    margin-top: 92px;
+    margin-right: 1%;
+    height: 700px;
+    width: 200px;
+    color: black;
+}
+.Aside ul {
+    margin-top: -90px;
+}

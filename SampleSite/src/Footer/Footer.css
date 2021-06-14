@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    height: 18vh;
+    display: block;
+    background-color: blueviolet;
+    color: black;
+}
+
+
+.Footer p {
+    text-align: center;
+    font-weight: bold;;
+  }
+  
