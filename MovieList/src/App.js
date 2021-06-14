@@ -1,0 +1,21 @@
+import React from 'react';
+import './App.css';
+import Nav from './nav';
+import MovieList from './MovieList';
+import AddMovie from './AddMovie';
+import {MovieProvider} from './MovieListContext';
+
+function App() {
+
+  return (
+    <MovieProvider>
+    <div className="App">
+      <Nav/>
+      <AddMovie/>
+      <MovieList/>
+    </div>
+    </MovieProvider>
+  );
+}
+
+export default App;
